@@ -1,0 +1,12 @@
+tickets_admin:
+    resource: "@TicketsAdminBundle/Resources/config/routing.yml"
+    prefix:   /
+
+tickets_suport:
+    resource: "@TicketsSuportBundle/Resources/config/routing.yml"
+    prefix:   /
+
+tickets_user:
+    resource: "@TicketsUserBundle/Resources/config/routing.yml"
+    prefix:   /
+

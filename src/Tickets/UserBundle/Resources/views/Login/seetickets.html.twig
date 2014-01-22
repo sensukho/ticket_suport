@@ -1,0 +1,63 @@
+{% extends 'TicketsUserBundle:Login:layout.html.twig' %}
+{% block content %}
+
+		<!-- Home -->
+			<div class="wrapper wrapper-style1 wrapper-first">
+				<article class="container" id="top">
+					<div class="row">
+						<div class="4u">
+							<span class="me image image-full"><img src="{{ asset('bundles/user/login/images/support2.png') }}" alt="" /></span>
+						</div>
+						<div class="8u">
+							<header>
+								<h1><strong>Sistema de Soporte</strong>.</h1>
+							</header>
+						</div>
+					</div>
+				</article>
+			</div>
+
+		<!-- Portfolio -->
+			<div class="wrapper wrapper-style3">
+				<article id="portfolio">
+					<header>
+						<h2>Sus tickets:</h2>
+					</header>
+					<div class="container">
+						<div class="row">
+							<div class="12u">
+							</div>
+						</div>
+						<div class="row">
+							<div class="4u">
+								<article class="box box-style2">
+									<a href="#"><img src="{{ asset('bundles/user/login/images/ticket.jpg') }}" alt="" /></a>
+									<h3><a href="#">#1</a></h3>
+									<p>Descripcion del ticket #1.</p>
+								</article>
+							</div>
+							<div class="4u">
+								<article class="box box-style2">
+									<a href="#"><img src="{{ asset('bundles/user/login/images/ticket.jpg') }}" alt="" /></a>
+									<h3><a href="#">#1</a></h3>
+									<p>Descripcion del ticket #1.</p>
+								</article>
+							</div>
+							<div class="4u">
+								<article class="box box-style2">
+									<a href="#"><img src="{{ asset('bundles/user/login/images/ticket.jpg') }}" alt="" /></a>
+									<h3><a href="#">#1</a></h3>
+									<p>Descripcion del ticket #1.</p>
+								</article>
+							</div>
+						</div>
+					</div>
+					<footer>
+						<p id="copyright">
+							&copy; 2014 Sensukho
+						</p>
+					</footer>
+				</article>
+			</div>
+
+{% endblock %}

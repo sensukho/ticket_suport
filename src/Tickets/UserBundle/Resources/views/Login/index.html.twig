@@ -1,0 +1,62 @@
+{% extends 'TicketsUserBundle:Login:layout.html.twig' %}
+{% block content %}
+
+		<!-- Home -->
+			<div class="wrapper wrapper-style1 wrapper-first">
+				<article class="container" id="top">
+					<div class="row">
+						<div class="4u">
+							<span class="me image image-full"><img src="{{ asset('bundles/user/login/images/support2.png') }}" alt="" /></span>
+						</div>
+						<div class="8u">
+							<header>
+								<h1><strong>Sistema de Soporte</strong>.</h1>
+							</header>
+							<p>Bienvenido al sistema de <strong>Soporte</strong> del Portal cautivo de UVM.</p>
+							<a href="/web/newticket" class="button button-big">Crear Ticket</a>&nbsp;&nbsp;&nbsp;
+							<a href="/web/tickets" class="button button-big">Consultar Ticket(s)</a>
+						</div>
+					</div>
+				</article>
+			</div>
+
+		<!-- Work -->
+			<div class="wrapper wrapper-style2">
+				<article id="work">
+					<header>
+						<h2>Cómodo de utilizar</h2>
+					</header>
+					<div class="container">
+						<div class="row">
+							<div class="4u">
+								<section class="box box-style1">
+									<span class="icon featured-icon icon-file"></span>
+									<h3>Creación</h3>
+									<p>Envíe su problema y/o pregunta para ser atendido.</p>
+								</section>
+							</div>
+							<div class="4u">
+								<section class="box box-style1">
+									<span class="icon featured-icon icon-star"></span>
+									<h3>Atención</h3>
+									<p>Nosotros atenderemos su petición y le daremos seguimiento.</p>
+								</section>
+							</div>
+							<div class="4u">
+								<section class="box box-style1">
+									<span class="icon featured-icon icon-thumbs-up"></span>
+									<h3>Solucion</h3>
+									<p><strong>Listo!</strong> Su petición ha sido resuelta con éxito.</p>
+								</section>
+							</div>
+						</div>
+					</div>
+					<footer>
+						<p id="copyright">
+							&copy; 2014 Sensukho
+						</p>
+					</footer>
+				</article>
+			</div>
+
+{% endblock %}

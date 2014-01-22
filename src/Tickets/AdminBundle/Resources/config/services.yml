@@ -1,0 +1,7 @@
+parameters:
+#    tickets_admin.example.class: Tickets\AdminBundle\Example
+
+services:
+#    tickets_admin.example:
+#        class: %tickets_admin.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

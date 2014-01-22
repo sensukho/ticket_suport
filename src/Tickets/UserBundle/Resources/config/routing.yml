@@ -1,0 +1,16 @@
+##### USER #####
+index:
+    pattern:  /
+    defaults: { _controller: TicketsUserBundle:User:index }
+
+new_ticket:
+    pattern:  /newticket/
+    defaults: { _controller: TicketsUserBundle:User:newticket }
+
+tickets:
+    pattern:  /tickets/
+    defaults: { _controller: TicketsUserBundle:User:tickets }
+
+see_tickets:
+    pattern:  /seetickets/
+    defaults: { _controller: TicketsUserBundle:User:seetickets }
