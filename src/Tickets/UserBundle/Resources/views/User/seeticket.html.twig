@@ -1,0 +1,106 @@
+{% extends 'TicketsUserBundle:User:layout.html.twig' %}
+{% block content %}
+
+		<!-- Home -->
+			<div class="wrapper wrapper-style1 wrapper-first">
+				<article class="container" id="top">
+					<div class="row">
+						<div class="4u">
+							<span class="me image image-full"><img src="{{ asset('bundles/user/images/support2.png') }}" alt="" /></span>
+						</div>
+						<div class="8u">
+							<header>
+								<h1><strong>Sistema de Soporte</strong>.</h1>
+							</header>
+						</div>
+					</div>
+				</article>
+			</div>
+
+		<!-- Portfolio -->
+			<div class="wrapper wrapper-style2">
+				<article id="portfolio">
+					<table width="95%">
+						<tr>
+							<td rowspan="8" width="20%"><font size="6"><b>Ticket: # {{id}}</b></font></span></td>
+						</tr>
+						<tr>
+							<td colspan="2" align="left"><font size="5">Titulo</font></td>
+						</tr>
+						<tr>
+							<td colspan="2"><font size="4">&nbsp;</font></td>
+						</tr>
+						<tr>
+							<td>
+								<table width="100%">
+									<tr>
+										<td width="20%" align="left"><b>Nombre:</b></td>
+										<td align="left">JC</td>
+									</tr>
+									<tr>
+										<td width="20%" align="left"><b>Email:</b></td>
+										<td align="left">mailœmidominio.com</td>
+									</tr>
+									<tr>
+										<td width="20%" align="left"><b>&nbsp;</b></td>
+										<td align="left">&nbsp;</td>
+									</tr>
+								</table>
+							</td>
+							<td>
+								<table width="100%">
+									<tr>
+										<td width="20%" align="left"><b>Estatus:</b></td>
+										<td align="left">
+											<select name="category">
+												<option>Abierto</option>
+												<option>Cerrado</option>
+											</select>
+										</td>
+									</tr>
+									<tr>
+										<td width="20%" align="left"><b>Prioridad:</b></td>
+										<td align="left">Baja</td>
+									</tr>
+									<tr>
+										<td width="20%" align="left"><b>Creación</b></td>
+										<td align="left">01/01/2014 12:30 pm</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" align="justify"><font size="3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</font></span></td>
+						</tr>
+						<tr>
+							<td colspan="2"><font size="8">&nbsp;</font></td>
+						</tr>
+						<!--
+						<tr>
+							<td colspan="2" align="left">
+								Respuesta:<textarea name="message" id="message" placeholder="Respuesta" cols="140" rows="8" ></textarea>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" align="right">
+								<div class="12u">
+									<a href="#" class="button form-button-submit">Enviar</a>
+								</div>
+							</td>
+						</tr>
+						-->
+					</table>
+					<footer>
+						<p id="copyright">
+							&copy; 2014 Sensukho
+						</p>
+					</footer>
+				</article>
+			</div>
+
+{% endblock %}

@@ -14,3 +14,7 @@ tickets:
 see_tickets:
     pattern:  /seetickets/
     defaults: { _controller: TicketsUserBundle:User:seetickets }
+
+see_ticket:
+    pattern:  /seeticket/{id}
+    defaults: { _controller: TicketsUserBundle:User:seeticket }
